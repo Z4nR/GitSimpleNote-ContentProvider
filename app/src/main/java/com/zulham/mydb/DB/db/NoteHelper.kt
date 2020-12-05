@@ -9,6 +9,7 @@ import com.zulham.mydb.DB.db.DatabaseContract.NoteColumns.Companion._ID
 import kotlinx.coroutines.InternalCoroutinesApi
 import kotlinx.coroutines.internal.synchronized
 import java.sql.SQLException
+import kotlin.jvm.Throws
 
 class NoteHelper(context: Context) {
 
